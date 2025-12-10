@@ -46,7 +46,7 @@ Lo script può essere lanciato con i seguenti argomenti
  * -t : La simulazione viene eseguita per sole 5 particelle e viene mostrato il grafico delle traiettorie 
  * -np : Viene stampato sul terminale il numero di particelle rilevate contenuto nel file .csv (Non viene eseguita la simulazione)
  
- * -s : Permette di salvare i dati delle particelle rilevate della simulazione, se non scelto i dati non verranno sovrascritti
+ * -s : Permette di salvare i dati delle particelle rilevate della simulazione, se non scelto i dati non verranno scritti
  
  * -d : Esegue l'analisi dati a partire da quelli presenti nel file .csv, stampa sul terminale i risultati (Non viene eseguita la simulazione)
  
