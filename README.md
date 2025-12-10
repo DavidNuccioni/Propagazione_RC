@@ -55,12 +55,12 @@ Una volta terminato il processo vengono stampate sullo schermo le informazioni d
 
 * **sim_data.csv** 
 
-Contiene i dati di direzione e tempo di arrivo delle particelle rilevate, organizzati in 4 colonne denominate: (al posto di '-' considerare '_')
+Contiene i dati di direzione e tempo di arrivo delle particelle rilevate, organizzati in 4 colonne denominate:
 
  * 'Time'
- * 'dir-x' 
- * 'dir-y'
- * 'dir-z' 
+ * 'dir_x' 
+ * 'dir_y'
+ * 'dir_z' 
 
 Ogni volta che si esegue la simulazione con argomento '-s' i dati delle particelle rilevate vegnono sovrascritti e salvati nel file. 
 
