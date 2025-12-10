@@ -1,10 +1,11 @@
-#Propagazione dei Raggi Cosmici
-##Progetto di Metodi Computazionali per la Fisica
+# Propagazione dei Raggi Cosmici
+
+## Progetto di Metodi Computazionali per la Fisica
 
 Viene implementata una simulazione della propagazione dei raggi cosmici nella galassia, tramite metodo random walk 3D. La simulazione è finalizzata nel ricavare la proprietà di isotropia osservata nei raggi cosmici e dovuta alla diffusione delle particelle nella galassia che subiscono fenomeni di scattering da parte del campo magntico galattico.
 
 ---
-###CONTENUTO REPOSITORY:
+### CONTENUTO REPOSITORY:
 
 **Propagazione_RC.pdf**: 
 
@@ -31,7 +32,7 @@ Cartella contenti i codici e dati utilizzati per la simulazione, nello specifico
    * run_parallel.py: file con script Python che permette l'esecuzione in parallelo della simulazione
 	
 ---							 
-###ISTRUZIONI PER SCRIPT E FILE CSV:
+### ISTRUZIONI PER SCRIPT E FILE CSV:
 							 
 * **propagation_RC.py**
 
