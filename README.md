@@ -1,6 +1,6 @@
 # Propagazione dei Raggi Cosmici
 
-## Progetto di Metodi Computazionali per la Fisica
+## Random walk 3D con sola diffusione delle particelle
 
 Viene implementata una simulazione della propagazione dei raggi cosmici nella galassia, tramite metodo random walk 3D. La simulazione è finalizzata nel ricavare la proprietà di isotropia osservata nei raggi cosmici e dovuta alla diffusione delle particelle nella galassia che subiscono fenomeni di scattering da parte del campo magntico galattico.
 
