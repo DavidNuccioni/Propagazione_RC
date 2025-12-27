@@ -1,10 +1,11 @@
-#Propagazione dei Raggi Cosmici
-##Progetto di Metodi Computazionali per la Fisica
+# Propagazione dei Raggi Cosmici
+
+## Random walk 3D con sola diffusione delle particelle
 
 Viene implementata una simulazione della propagazione dei raggi cosmici nella galassia, tramite metodo random walk 3D. La simulazione è finalizzata nel ricavare la proprietà di isotropia osservata nei raggi cosmici e dovuta alla diffusione delle particelle nella galassia che subiscono fenomeni di scattering da parte del campo magntico galattico.
 
 ---
-###CONTENUTO REPOSITORY:
+### CONTENUTO REPOSITORY:
 
 **Propagazione_RC.pdf**: 
 
@@ -31,7 +32,7 @@ Cartella contenti i codici e dati utilizzati per la simulazione, nello specifico
    * run_parallel.py: file con script Python che permette l'esecuzione in parallelo della simulazione
 	
 ---							 
-###ISTRUZIONI PER SCRIPT E FILE CSV:
+### ISTRUZIONI PER SCRIPT E FILE CSV:
 							 
 * **propagation_RC.py**
 
@@ -45,7 +46,7 @@ Lo script può essere lanciato con i seguenti argomenti
  * -t : La simulazione viene eseguita per sole 5 particelle e viene mostrato il grafico delle traiettorie 
  * -np : Viene stampato sul terminale il numero di particelle rilevate contenuto nel file .csv (Non viene eseguita la simulazione)
  
- * -s : Permette di salvare i dati delle particelle rilevate della simulazione, se non scelto i dati non verranno sovrascritti
+ * -s : Permette di salvare i dati delle particelle rilevate della simulazione, se non scelto i dati non verranno scritti
  
  * -d : Esegue l'analisi dati a partire da quelli presenti nel file .csv, stampa sul terminale i risultati (Non viene eseguita la simulazione)
  
@@ -54,12 +55,12 @@ Una volta terminato il processo vengono stampate sullo schermo le informazioni d
 
 * **sim_data.csv** 
 
-Contiene i dati di direzione e tempo di arrivo delle particelle rilevate, organizzati in 4 colonne denominate: (al posto di '-' considerare '_')
+Contiene i dati di direzione e tempo di arrivo delle particelle rilevate, organizzati in 4 colonne denominate:
 
  * 'Time'
- * 'dir-x' 
- * 'dir-y'
- * 'dir-z' 
+ * 'dir_x' 
+ * 'dir_y'
+ * 'dir_z' 
 
 Ogni volta che si esegue la simulazione con argomento '-s' i dati delle particelle rilevate vegnono sovrascritti e salvati nel file. 
 
